@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="tip-calculator">
+        <h3> ITMD 541 - Lab 3 - Nagashree Srinivasa Murthy </h3>
+        <h1 id="headline">Tip Calculator</h1>
+        <form id="form">
+
+            <label class="form-label">Total Amount of the Bill</label>
+            <input type="text" id="bill-total" class="form-input" placeholder="">
+
+
+            <label class="form-label">Tip to be given</label>
+            <input type="range" min="1" max="100" id="tip" class="form-input">
+
+
+            <label class="form-label">Tip Percentage</label>
+            <input type="text" disabled id="tip-percentage" class="form-input">
+            
+
+            <label class="form-label">Tip Amount</label>
+            <input type="text" disabled id="tip-amount" class="form-input">
+
+
+            <label class="form-label">Total Bill With Tip included</label>
+            <input type="text" disabled id="total" class="form-input">
+        </form>
+    </div>
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
