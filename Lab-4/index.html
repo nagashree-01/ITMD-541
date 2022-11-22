@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Report</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="currentinfo">
+
+      <div class="datecontainer">
+        <div class="time" id="time">
+          12:30 <span id="am-pm"> PM </span>
+        </div>
+        <div class="date" id="date">
+          Monday, 24th May
+        </div>
+        <div class="others" id="currentweatheritems">
+        </div>
+      </div>
+      <div class="placecontainer">
+          <input type="text" class="search" id="locationInput" placeholder="Enter Location">
+          <button type="submit" class="submit" id="locationSubmit">
+            <i class="fa-solid fa-magnifying-glass-location"></i>
+          </button>
+        <div class="timezone" id="timezone">Newport News</div>
+     </div>
+   </div>
+ </div>
+
+ <div class="futureforecast">
+      <div class="weatherforecast" id="weatherforecast">
+        <div class="weatherforecastitem">
+          <div class="day">Tue</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/rain.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+        <div class="weatherforecastitem">
+          <div class="day">Wed</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/cloudy.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+        <div class="weatherforecastitem">
+          <div class="day">Thur</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+        <div class="weatherforecastitem">
+          <div class="day">Fri</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/sunny.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+        <div class="weatherforecastitem">
+          <div class="day">Sat</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+        <div class="weatherforecastitem">
+          <div class="day">Sun</div>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png" alt="weather icon" class="wicon">
+          <div class="temp">Max - 25.6&#176; C</div>
+          <div class="temp">Min - 35&#176; C</div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
